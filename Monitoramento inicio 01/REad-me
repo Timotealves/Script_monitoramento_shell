@@ -1,0 +1,15 @@
+Cria automaticamente o diretório monitoramento_sistema (caso não exista).
+
+Busca por palavras-chave críticas no /var/log/syslog, como:
+
+fail / failed
+
+error
+
+denied
+
+unauthorized
+
+Extrai colunas importantes dos registros (data, hora, processo e mensagem).
+
+Salva os resultados filtrados em monitoramento_sistema/monitoramento_logs_sistema.txt.
